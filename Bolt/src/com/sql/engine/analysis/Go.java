@@ -1,4 +1,4 @@
-package com.sql.engine.analysis;
+﻿package com.sql.engine.analysis;
 
 import com.sql.engine.memory.BplusTree;
 import com.sql.engine.memory.Node;
@@ -24,7 +24,7 @@ public class Go {
       BplusTree bplusTreet=BplusTree.readNode();
 
         System.out.println(bplusTreet.get(1));
-        bplusTreet.insertOrUpdate(211,"胡俊秋");
+        bplusTreet.insertOrUpdate(211,"蛤");
         System.out.println(bplusTreet.get(211));
         System.out.println(bplusTreet.get(888));
 
