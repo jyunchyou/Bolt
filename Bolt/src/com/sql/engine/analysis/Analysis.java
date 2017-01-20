@@ -14,5 +14,6 @@ public class Analysis {
 
     }
     public void  parse(){
+	//对sql进行compile
     }
 }
