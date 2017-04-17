@@ -7,6 +7,10 @@ import com.sql.engine.memory.BplusTreeI;
  */
 public class Analysis {
     String sql;
+
+
+
+
     BplusTreeI tree;
     public Analysis(String sql,BplusTreeI tree){
         this.tree=tree;
@@ -16,4 +20,5 @@ public class Analysis {
     public void  parse(){
 	//对sql进行compile
     }
+
 }
